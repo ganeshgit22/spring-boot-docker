@@ -13,8 +13,8 @@ spec:
         app: jhooq-springboot
     spec:
       containers:
-        - name: springboot
-          image: rahulwagh17/kubernetes:jhooq-k8s-springboot
+        - name: springboot11
+          image: gsdocker22/my-first-pipeline:jhooq-docker-demo
 
           resources:
             requests:
